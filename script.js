@@ -51,12 +51,3 @@ window.addEventListener("scroll", () => {
     scrollArrow.classList.remove("hidden-arrow");
   }
 });
-
-const mybody = document.getElementById("myBody");
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 100) {
-    mybody.classList.add("bg");
-  } else {
-    mybody.classList.remove("bg");
-  }
-});
